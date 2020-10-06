@@ -49,7 +49,7 @@ header ul li a:hover {
 }
 .banner {
 	height: 60vh;
-	background-image: url('../img/warna.jpg');
+	background-image: url('warna.jpg');
 	background-size: cover;
 	display: flex;
 	justify-content: center;
