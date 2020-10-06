@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: serif;
+}
+a {
+	color: inherit;
+	text-decoration: none; 
+}
+.medsos {
+	padding: 5px 0;
+	background-color: #BEA9E5;
+}
+.medsos ul li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.container after {
+	content: '';
+	display: block;
+	clear: both;
+}
+header {
+	height: 50px;
+}
+header h1 {
+	float: left;
+	padding: 6px 0;
+	color: #BEA9E5;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	display: inline-block;
+	padding: 16px 15px;
+}
+header ul li a:hover {
+	background-color: #BEA9E5;
+	color: #fff;
+}
+.banner {
+	height: 60vh;
+	background-image: url('../img/warna.jpg');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner h2 {
+	color: #00695A;
+	padding: 20px 25px;
+	border: 3px solid;
+}
+section {
+	padding: 50px 0;
+}
+section h3 {
+	text-align: center;
+	padding: 20px 0;
+	color: #BEA9E5;
+}
+.about p {
+	color: #00695A;
+	text-align: center;
+}
+footer {
+	padding: 10px 0;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
